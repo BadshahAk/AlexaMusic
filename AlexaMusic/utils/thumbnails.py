@@ -136,16 +136,16 @@ async def gen_thumb(videoid, user_id, theme):
             text_w, text_h = draw.textsize(f"ALEXA MUSIC IS PLAYING OP", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"ALEXA MUSIC IS PLAYING OP",
+                f"AaYu MUSIC IS PLAYING OP",
                 fill="red",
                 font=font,
             )
             text_w, text_h = draw.textsize(
-                f"Shehzadi Music One Of The Most Advanced Telegram Music Bot", font=arial
+                f"AaYu Music One Of The Most Advanced Telegram Music Bot", font=arial
             )
             draw.text(
                 ((1280 - text_w) / 2, 80),
-                f"Shehzadi Music One Of The Most Advanced Telegram Music Bot",
+                f"AaYu Music One Of The Most Advanced Telegram Music Bot",
                 fill="green",
                 font=arial,
             )
@@ -174,7 +174,7 @@ async def gen_thumb(videoid, user_id, theme):
         text_w, text_h = draw.textsize(f"YouTube: Jankari Ki Duniya", font=arial)
         draw.text(
             ((1280 - text_w) / 2, 620),
-            f"YouTube: Jankari Ki Duniya",
+            f"YouTube: Royal Fyter",
             fill="white",
             font=arial,
         )
